@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 600px;
+    height: 280px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    padding-bottom:60px ;
+}
+.first{
+margin: 50px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h3{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.first p{
+    text-align: center;
+}
+.email .just{
+    width: 100%;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+
+}   
+.email{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    width:450px;
+}
+input{
+    border-radius: 6px;
+    border-color:rgb(199, 197, 197) ;
+    padding: 80px;
+    
+
+}
+button{
+    margin-bottom: 13px;
+    padding: 9px 60px 2px 60px;
+    height: 50px;
+    border-radius: 6px;
+    color: white;
+    background-color: #3a86ff;
+    border-color: #3a86ff;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all 200ms ease;
+}
+button:hover{
+    box-shadow: 0 0 15PX 5px #2385a3
+}
+.checkbox{
+    padding-right: 200px;
+}
